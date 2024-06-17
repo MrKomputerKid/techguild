@@ -51,7 +51,7 @@ export default function HomePage() {
                     `}
         >
           <Head>
-            <title>Bend DevOps</title>
+            <title>Deschutes Tech Guild</title>
           </Head>
           <About />
           <Speaking />

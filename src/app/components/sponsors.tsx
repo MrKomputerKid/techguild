@@ -6,7 +6,7 @@ export default function Sponsors() {
     <div className='py-2 my-2 max-w-2xl'>
       <div>
         <h2 className='font-normal py-2 text-2xl'>
-          Bend DevOps is proudly sponsored by Snyk!
+          Deschutes Tech Guild is proudly sponsored by Snyk!
         </h2>
         <div className='font-[400] text-lg'>
           <p>
@@ -32,16 +32,39 @@ export default function Sponsors() {
             />
           </Link>
         </div>
-        <div className='text-lg'>
-          <p>
-            We welcome additional sponsors! If you're interested in supporting
-            our meetup and connecting with our audience, drop us a note{' '}
-            <Link className='underline' href='#form-div'>
-              here
+        <div className='py-2 my-2 max-w-2xl'>
+          <h2 className='font-normal py-2 text-2xl'>
+            Deschutes Tech Guild is also proudly sponsored by CraftCMS!
+          </h2>
+          <div className='font-[400] text-lg'>
+            <p>
+              Craft CMS is a powerful, flexible, and secure content management
+              system made for developers, designers, and content creators. It
+              offers a user-friendly interface, allowing you to easily create
+              custom websites, blogs, and applications tailored to your unique
+              needs. With Craft CMS, you can unleash your creativity and bring
+              your vision to life by creating web applications that stand out
+              from the crowd and captivate your audience.
+            </p>
+          </div>
+          <div className='py-2 my-5 mb-10 md:py-1 flex justify-center'>
+            <Link
+              href='https://craftcms.com'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <Image
+                className='w-[auto] h-[auto]'
+                src='/images/craft-cms.png'
+                alt='craft cms logo'
+                height={500}
+                width={375}
+                priority
+              />
             </Link>
-            .
-          </p>
+          </div>
         </div>
+        <div className='text-lg'></div>
       </div>
     </div>
   );

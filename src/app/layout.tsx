@@ -50,8 +50,8 @@ export const metadata: Metadata = {
   },
   authors: [
     {
-      name: 'Bend DevOps',
-      url: 'https://benddevops.org',
+      name: 'Deschutes Tech Guild',
+      url: 'https://deschutes.technology',
     },
   ],
 };
